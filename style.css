@@ -1,0 +1,28 @@
+/*Alumna: Gabriela Céspedes*/
+
+.row, .col, .col-2, .col-3{
+    margin: 10px;
+    padding: auto;
+}
+
+.col, .col-2, .col-3{
+    background-color: aqua;
+}
+
+.row{
+    display: flex;
+    background-color: gray;
+}
+
+.col{
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+    
+}
